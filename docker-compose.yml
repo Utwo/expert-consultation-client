@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  postgres:
+    container_name: postgres
+    image: postgres:13.1
+    environment:
+      POSTGRES_DB: 'legalconsultation'
+      POSTGRES_USER: 'root'
+      POSTGRES_PASSWORD: 'root'
+    expose:
+      - '5432'
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres-vol:/var/lib/postgresql/data
+
+  expert-consultation-api:
+    container_name: expert-consultation-api
+    image: code4romania/expert-consultation-api
+    environment:
+      - MYSQL_DB_URL=postgres
+      - SPRING_PROFILE=dev
+    ports:
+      - '8080:8080'
+    depends_on:
+      - postgres
+volumes:
+  postgres-vol:
