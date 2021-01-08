@@ -1,10 +1,10 @@
 # Legal Consultation App
 
-[![GitHub contributors](https://img.shields.io/github/contributors/code4romania/legal-consultation-client.svg)](https://github.com/code4romania/legal-consultation-client/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/legal-consultation-client.svg)](https://github.com/code4romania/legal-consultation-client/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)  ![](https://github.com/code4romania/expert-consultation-client/workflows/Build/badge.svg)
+[![GitHub contributors](https://img.shields.io/github/contributors/code4romania/legal-consultation-client.svg)](https://github.com/code4romania/legal-consultation-client/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/legal-consultation-client.svg)](https://github.com/code4romania/legal-consultation-client/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) ![](https://github.com/code4romania/expert-consultation-client/workflows/Build/badge.svg)
 
 Webapp client for Legal Consultation, a project designed to ease the process of public consultation with experts in Romania.
 
-[See the project UX](https://www.figma.com/proto/t9BrHVBxSgOOGi8tbqptjN/Expert-Consultation?node-id=2%3A197&scaling=min-zoom) and [the preview environment](https://expert-consultation-client.now.sh) with the work in progress.
+[See the project UX](https://www.figma.com/proto/t9BrHVBxSgOOGi8tbqptjN/Expert-Consultation?node-id=2%3A197&scaling=min-zoom) and [the preview environment](https://legiinlucru.ro) with the work in progress.
 
 Whenever a group or institution proposes a new law, there is a time when they need to consult with expert communities. For example, legislation on urban planning, construction, or architecture generally reaches the Architects' Order in Romania for consultation. The consultation period is very short and most of the time, not all members of these expert groups have the necessary time and tools to make their contribution effective. The consultation process within the group is very ad-hoc, made through physical documents, social media, or excel files forwarded back and forth between all participants, and these groups sometimes have more than 4-5 thousand experts who should get information and come back in a few days.
 
@@ -24,11 +24,11 @@ To find out more about this project, [check it out on Civic Labs](https://civicl
 
 This project is built by amazing volunteers and you can be one of them! Here's a list of ways in [which you can contribute to this project](.github/CONTRIBUTING.md). If you want to make any change to this repository, please **make a fork first**.
 
-Help us out by testing this project in the [staging environment](https://expert-consultation-client.now.sh/home). If you see something that doesn't quite work the way you expect it to, open an Issue. Make sure to describe what you _expect to happen_ and _what is actually happening_ in detail.
+Help us out by testing this project in the [staging environment](https://expert-consultation-client-git-develop.code4romania.vercel.app). If you see something that doesn't quite work the way you expect it to, open an Issue. Make sure to describe what you _expect to happen_ and _what is actually happening_ in detail.
 
-If you would like to suggest new functionality, open an Issue and mark it as a __[Feature request]__. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements. 
+If you would like to suggest new functionality, open an Issue and mark it as a **[Feature request]**. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements.
 
-Also, this is [the workflow we follow](.github/WORKFLOW.md). 
+Also, this is [the workflow we follow](.github/WORKFLOW.md).
 
 ## Built With
 
@@ -63,10 +63,10 @@ Your server will start on `localhost:4200`
 
 ## Feedback
 
-* Request a new feature on GitHub.
-* Vote for popular feature requests.
-* File a bug in GitHub Issues.
-* Email us with other feedback contact@code4.ro
+- Request a new feature on GitHub.
+- Vote for popular feature requests.
+- File a bug in GitHub Issues.
+- Email us with other feedback contact@code4.ro
 
 ## License
 
